@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_logo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgFoodRunner"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/food_runner"
+        android:contentDescription="@string/des_app_logo" />
+
+    <TextView
+        android:id="@+id/txtInputDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/txt_input_description"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/imgFoodRunner"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rlMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtInputDescription"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/et_bg">
+
+        <ImageView
+            android:id="@+id/imgRegisteredMobile"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="1dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/phone_icon"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/des_phone_icon" />
+
+        <EditText
+            android:id="@+id/etMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/imgRegisteredMobile"
+            android:autofillHints="phone"
+            android:hint="@string/hnt_mobile_number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:textSize="18sp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlMobileNumber"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_bg">
+
+        <ImageView
+            android:id="@+id/imgEmail"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/mail_icon"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/des_mail_icon" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/imgEmail"
+            android:autofillHints="emailAddress"
+            android:hint="@string/hnt_email_address"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textSize="18sp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlPassword"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_bg"
+        android:padding="10dp"
+        android:text="@string/btn_next"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

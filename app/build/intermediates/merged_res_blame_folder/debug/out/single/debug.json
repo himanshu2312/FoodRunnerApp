@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_btn_bg.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.himanshu.foodrunnerapp-merged_res-29:/layout_activity_new.xml.flat",
+        "source": "com.himanshu.foodrunnerapp-main-31:/layout/activity_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_password_icon.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\password_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_profile_icon.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\profile_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_mail_icon.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\mail_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-pngs-24:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_et_bg.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\et_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\layout_activity_forgot.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\layout\\activity_forgot.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_food_runner_logo.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\food_runner_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.himanshu.foodrunnerapp-merged_res-29:/layout_list_view.xml.flat",
+        "source": "com.himanshu.foodrunnerapp-main-31:/layout/list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_phone_icon.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\phone_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_food_runner.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\food_runner.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\drawable_location_icon.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\drawable\\location_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-merged_res-29:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\7.4\\com.himanshu.foodrunnerapp-main-31:\\layout\\activity_login.xml"
+    }
+]

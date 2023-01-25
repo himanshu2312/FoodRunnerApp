@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.himanshu.foodrunnerapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\himan\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.himanshu.foodrunnerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\himan\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\himan\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.himanshu.foodrunnerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\himan\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\himan\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:5:5-63:19
+18        android:allowBackup="true"
+18-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\himan\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:11:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:12:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.FoodRunnerApp" >
+28-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:13:9-51
+29        <activity
+29-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:15:9-21:20
+30            android:name="com.himanshu.foodrunnerapp.NewActivity"
+30-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:16:13-40
+31            android:exported="false" >
+31-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:17:13-37
+32            <meta-data
+32-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:18:13-20:36
+33                android:name="android.app.lib_name"
+33-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:19:17-52
+34                android:value="" />
+34-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:20:17-33
+35        </activity>
+36        <activity
+36-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:22:9-28:20
+37            android:name="com.himanshu.foodrunnerapp.SignupActivity"
+37-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:23:13-43
+38            android:exported="false" >
+38-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:24:13-37
+39            <meta-data
+39-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:18:13-20:36
+40                android:name="android.app.lib_name"
+40-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:19:17-52
+41                android:value="" />
+41-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:20:17-33
+42        </activity>
+43        <activity
+43-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:9-35:20
+44            android:name="com.himanshu.foodrunnerapp.ForgotActivity"
+44-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:13-43
+45            android:exported="false" >
+45-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:31:13-37
+46            <meta-data
+46-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:18:13-20:36
+47                android:name="android.app.lib_name"
+47-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:19:17-52
+48                android:value="" />
+48-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:20:17-33
+49        </activity>
+50        <activity
+50-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:36:9-42:20
+51            android:name="com.himanshu.foodrunnerapp.LoginActivity"
+51-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:37:13-42
+52            android:exported="false" >
+52-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:38:13-37
+53            <meta-data
+53-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:18:13-20:36
+54                android:name="android.app.lib_name"
+54-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:19:17-52
+55                android:value="" />
+55-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:20:17-33
+56        </activity>
+57        <activity
+57-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:43:9-55:20
+58            android:name="com.himanshu.foodrunnerapp.SplashActivity"
+58-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:44:13-43
+59            android:exported="true" >
+59-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:45:13-36
+60            <intent-filter>
+60-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:46:13-50:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:47:17-69
+61-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:47:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:49:17-77
+63-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:49:27-74
+64            </intent-filter>
+65
+66            <meta-data
+66-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:18:13-20:36
+67                android:name="android.app.lib_name"
+67-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:19:17-52
+68                android:value="" />
+68-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:20:17-33
+69        </activity>
+70        <activity
+70-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:56:9-62:20
+71            android:name="com.himanshu.foodrunnerapp.MainActivity"
+71-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:57:13-41
+72            android:exported="false" >
+72-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:58:13-37
+73            <meta-data
+73-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:18:13-20:36
+74                android:name="android.app.lib_name"
+74-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:19:17-52
+75                android:value="" />
+75-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:20:17-33
+76        </activity>
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+80            android:authorities="com.himanshu.foodrunnerapp.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\himan\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\himan\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\himan\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+88        </provider>
+89    </application>
+90
+91</manifest>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_logo"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlNewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/et_bg">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/des_profile_icon"
+            android:padding="3dp"
+            android:src="@drawable/profile_icon" />
+
+        <EditText
+            android:id="@+id/etNewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/imgProfile"
+            android:autofillHints="name"
+            android:hint="@string/hnt_name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textSize="16sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlNewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/et_bg">
+
+        <ImageView
+            android:id="@+id/imgNewEmail"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/des_mail_icon"
+            android:padding="3dp"
+            android:src="@drawable/mail_icon" />
+
+        <EditText
+            android:id="@+id/etNewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/imgNewEmail"
+            android:autofillHints="emailAddress"
+            android:hint="@string/hnt_email_address"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlNewMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/et_bg">
+
+        <ImageView
+            android:id="@+id/imgNewMobile"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/des_phone_icon"
+            android:padding="3dp"
+            android:src="@drawable/phone_icon" />
+
+        <EditText
+            android:id="@+id/etNewMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imgNewMobile"
+            android:autofillHints="phone"
+            android:hint="@string/hnt_mobile_number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlNewDeliveryAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/et_bg">
+
+        <ImageView
+            android:id="@+id/imgNewDeliveryAddress"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/des_location_icon"
+            android:padding="3dp"
+            android:src="@drawable/location_icon" />
+
+        <EditText
+            android:id="@+id/etNewDeliveryAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imgNewDeliveryAddress"
+            android:autofillHints="postalAddress"
+            android:hint="@string/hnt_delivery_address"
+            android:inputType="textPostalAddress"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/et_bg">
+
+        <ImageView
+            android:id="@+id/imgNewPassword"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/des_password_icon"
+            android:padding="3dp"
+            android:src="@drawable/password_icon" />
+
+        <EditText
+            android:id="@+id/etNewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imgNewPassword"
+            android:autofillHints="password"
+            android:hint="@string/hnt_password_up_to_4characters"
+            android:inputType="textPassword"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/et_bg">
+
+        <ImageView
+            android:id="@+id/imgConfirmPassword"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/des_password_icon"
+            android:padding="3dp"
+            android:src="@drawable/password_icon" />
+
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="password"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/imgConfirmPassword"
+            android:hint="@string/hnt_confirm_password"
+            android:inputType="textPassword"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/btn_register"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
