@@ -2909,7 +2909,6 @@ id line1
 id line3
 id linear
 id listMode
-id listView
 id list_item
 id marquee
 id masked
@@ -3285,7 +3284,6 @@ layout abc_tooltip
 layout activity_forgot
 layout activity_login
 layout activity_main
-layout activity_new
 layout activity_signup
 layout activity_splash
 layout custom_dialog
@@ -3304,7 +3302,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout list_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
