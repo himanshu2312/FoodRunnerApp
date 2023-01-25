@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="hnt_mobile_number">Mobile Number (10 digits)</string>
+    <string name="des_app_logo">logo of app</string>
+    <string name="txt_signup">Don\'t have an account? Sign up now</string>
+    <string name="hnt_password">Password</string>
+    <string name="btn_login">login</string>
+    <string name="txt_forgot_password">Forgot Password?</string>
+    <string name="txt_input_description">Enter your registered mobile number and email below:</string>
+    <string name="hnt_email_address">Email Address</string>
+    <string name="btn_next">Next</string>
+    <string name="hnt_name">Name</string>
+    <string name="hnt_delivery_address">Delivery Address</string>
+    <string name="hnt_password_up_to_4characters">Password (Min. 4 characters)</string>
+    <string name="btn_register">Register</string>
+    <string name="hnt_confirm_password">Comfirm Password</string>
+    <string name="des_phone_icon">icon of mobile-phone</string>
+    <string name="des_password_icon">icon of password</string>
+    <string name="des_mail_icon">icon of mail</string>
+    <string name="des_profile_icon">icon of profile</string>
+    <string name="des_location_icon">icon of location</string>
+</resources>
