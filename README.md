@@ -1,6 +1,5 @@
 # FoodRunnerApp
 Android Application made for learning course.
-I am currenting working on it.
 This application is a part of Android development Trainning Course by Internshala Trannings.
 
 # How to Download Project and Access Project
