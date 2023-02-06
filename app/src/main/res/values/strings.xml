@@ -19,4 +19,13 @@
     <string name="des_mail_icon">icon of mail</string>
     <string name="des_profile_icon">icon of profile</string>
     <string name="des_location_icon">icon of location</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">My Profile</string>
+    <string name="favorite">Favorite Restaurants</string>
+    <string name="home">Home</string>
+    <string name="faq">FAQs</string>
+    <string name="log_out">Log out</string>
 </resources>

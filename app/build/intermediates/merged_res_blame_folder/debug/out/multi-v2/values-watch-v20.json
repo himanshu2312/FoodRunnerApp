@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.himanshu.foodrunnerapp-mergeDebugResources-27:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.himanshu.foodrunnerapp-mergeDebugResources-30:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\e4a8049e253b5797baef35daaf535720\\transformed\\appcompat-1.6.0\\res\\values-watch-v20\\values-watch-v20.xml",

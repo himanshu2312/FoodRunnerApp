@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/app_logo"
+    android:background="@color/color_primary"
     android:orientation="vertical"
-    tools:context=".SignupActivity">
+    tools:context=".activity.SignupActivity">
 
     <RelativeLayout
         android:id="@+id/rlNewName"
@@ -208,6 +208,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
