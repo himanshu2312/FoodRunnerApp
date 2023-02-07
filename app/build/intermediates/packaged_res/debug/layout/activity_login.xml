@@ -37,10 +37,12 @@
             android:contentDescription="@string/des_phone_icon" />
 
         <EditText
+            android:backgroundTint="@color/black"
             android:id="@+id/etMobileNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/imgMobile"
+            android:textColor="@color/black"
             android:autofillHints="phone"
             android:hint="@string/hnt_mobile_number"
             android:inputType="phone"
@@ -76,9 +78,12 @@
             android:layout_centerVertical="true"
             android:layout_toEndOf="@id/imgPassword"
             android:autofillHints="password"
+            android:textColor="@color/black"
             android:hint="@string/hnt_password"
             android:inputType="textPassword"
+            android:backgroundTint="@color/black"
             android:maxLines="1"
+            android:maxLength="4"
             android:textSize="18sp" />
 
     </RelativeLayout>

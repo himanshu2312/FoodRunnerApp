@@ -7,9 +7,10 @@
     android:background="@color/color_primary">
 
     <ImageView
-        android:layout_width="233dp"
-        android:layout_height="196dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
         android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
         android:src="@drawable/food_runner_logo" />
 
 </RelativeLayout>

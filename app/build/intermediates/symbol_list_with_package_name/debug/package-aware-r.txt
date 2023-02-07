@@ -3598,6 +3598,11 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string ans1
+string ans2
+string ans3
+string ans4
+string ans5
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -3742,6 +3747,11 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string profile
+string que1
+string que2
+string que3
+string que4
+string que5
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

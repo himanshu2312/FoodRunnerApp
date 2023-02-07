@@ -1,5 +1,6 @@
 package com.himanshu.foodrunnerapp.activity
 
+import android.app.Activity
 import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +10,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
+import androidx.core.app.ActivityCompat
 import androidx.lifecycle.viewmodel.CreationExtras
 import com.himanshu.foodrunnerapp.R
 
@@ -36,7 +38,6 @@ class SignupActivity : AppCompatActivity() {
         etConfirmPassword = findViewById(R.id.etConfirmPassword)
         btnRegister = findViewById(R.id.btnRegister)
         sharedPreferences = getSharedPreferences(R.string.app_name.toString(), MODE_PRIVATE)
-        sharedPreferences.edit().clear().apply()
 
         btnRegister.setOnClickListener {
             val message = when {
@@ -70,6 +71,7 @@ class SignupActivity : AppCompatActivity() {
                 ).show()
             } else {
                 if (etUserPassword.text.toString() == etConfirmPassword.text.toString()) {
+                    sharedPreferences.edit().clear().apply()
                     sharedPreferences.edit().putString("user_name", etUserName.text.toString())
                         .apply()
                     sharedPreferences.edit().putString("user_email", etUserEmail.text.toString())
@@ -117,5 +119,10 @@ class SignupActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         finish()
+    }
+
+    override fun onBackPressed() {
+        val intent = Intent(this@SignupActivity, LoginActivity::class.java)
+        startActivity(intent)
     }
 }

@@ -101,6 +101,11 @@ layout single_rastaurant
 menu menu_drawer
 mipmap ic_launcher
 mipmap ic_launcher_round
+string ans1
+string ans2
+string ans3
+string ans4
+string ans5
 string app_name
 string btn_login
 string btn_next
@@ -126,6 +131,11 @@ string home
 string log_out
 string open_drawer
 string profile
+string que1
+string que2
+string que3
+string que4
+string que5
 string txt_forgot_password
 string txt_input_description
 string txt_signup

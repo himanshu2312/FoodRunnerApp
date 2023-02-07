@@ -45,7 +45,6 @@ class LoginActivity : AppCompatActivity() {
                 ) {
                     sharedPreferences.edit().putBoolean("isLoggedIn", true).apply()
                     startActivity(startMainActivity)
-                    finish()
                 }else{
                     etPassword.text.clear()
                     etMobileNumber.text.clear()
@@ -65,9 +64,13 @@ class LoginActivity : AppCompatActivity() {
             txtSignup.setOnClickListener {
                 val startSignupActivity = Intent(this@LoginActivity, SignupActivity::class.java)
                 startActivity(startSignupActivity)
-                finish()
             }
         }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        finish()
     }
 
 }

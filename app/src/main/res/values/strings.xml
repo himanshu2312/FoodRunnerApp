@@ -28,4 +28,14 @@
     <string name="home">Home</string>
     <string name="faq">FAQs</string>
     <string name="log_out">Log out</string>
+    <string name="que1">Que: What this App does?</string>
+    <string name="ans1">Ans: This app shows you a list of top restaurants in the home section.</string>
+    <string name="que2">Que: Can we add restaurants in favorites as per our choise?</string>
+    <string name="ans2">Ans: Yes we can do so by clicking on the heart icon to add a restaurant in favorites and we can also remove one by doing the same.</string>
+    <string name="que3">Que: Where can we find our favorite restaurants?</string>
+    <string name="ans3">Ans: We can find our favorite restaurants in the favorite section by selecting it from the navigavtion menu.</string>
+    <string name="que4">Que: Where we can find our credentials?</string>
+    <string name="ans4">Ans: We can find our credentials in the profile section by selecting it from navigation menu.</string>
+    <string name="que5">Que: Where does the favorite data of restaurants store?</string>
+    <string name="ans5">Ans: The data of favorite restaurants stores in a local database on user\'s device and it fetches using SQL.</string>
 </resources>
