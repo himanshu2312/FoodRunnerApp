@@ -176,7 +176,6 @@
             android:autofillHints="password"
             android:hint="@string/hnt_password_up_to_4characters"
             android:inputType="textPassword"
-            android:maxLength="4"
             android:maxLines="1"
             android:textSize="16sp" />
 
@@ -212,7 +211,6 @@
             android:layout_toEndOf="@id/imgConfirmPassword"
             android:hint="@string/hnt_confirm_password"
             android:inputType="textPassword"
-            android:maxLength="4"
             android:backgroundTint="@color/black"
             android:maxLines="1"
             android:textSize="16sp" />

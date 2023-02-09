@@ -11,10 +11,7 @@ import androidx.appcompat.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import com.himanshu.foodrunnerapp.R
-import com.himanshu.foodrunnerapp.fragment.FAQFragment
-import com.himanshu.foodrunnerapp.fragment.FavoriteFragment
-import com.himanshu.foodrunnerapp.fragment.HomeFragment
-import com.himanshu.foodrunnerapp.fragment.ProfileFragment
+import com.himanshu.foodrunnerapp.fragment.*
 
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
@@ -83,17 +80,28 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.home) -> HomeFragment()
             getString(R.string.favorite) -> FavoriteFragment()
             getString(R.string.profile) -> ProfileFragment()
-            else -> FAQFragment()
+            getString(R.string.faq) -> FAQFragment()
+            else -> OrderHistoryFragment()
+        }
+        val title= when (name) {
+            getString(R.string.home) -> "All Restaurants"
+            getString(R.string.favorite) -> "Favorite Restaurants"
+            getString(R.string.profile) -> "My Profile"
+            getString(R.string.faq) -> "Frequently Asked Questions"
+            else -> "My Previous Orders"
         }
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.frameLayout, fragment).commit()
-        supportActionBar?.title = name
+        supportActionBar?.title = title
         sideDrawer.close()
     }
 
     override fun onBackPressed() {
         when(supportFragmentManager.findFragmentById(R.id.frameLayout)){
-            !is HomeFragment -> openFragment(getString(R.string.home))
+            !is HomeFragment -> {
+                openFragment(getString(R.string.home))
+                navigationView.setCheckedItem(R.id.home)
+            }
             else -> super.onBackPressed()
         }
     }

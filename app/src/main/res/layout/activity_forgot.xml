@@ -51,7 +51,7 @@
             android:contentDescription="@string/des_phone_icon" />
 
         <EditText
-            android:id="@+id/etMobileNumber"
+            android:id="@+id/etRegisteredMobileNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -66,7 +66,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/rlPassword"
+        android:id="@+id/rlEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rlMobileNumber"
@@ -84,7 +84,7 @@
             android:contentDescription="@string/des_mail_icon" />
 
         <EditText
-            android:id="@+id/etEmail"
+            android:id="@+id/etRegisteredEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -102,7 +102,7 @@
         android:id="@+id/btnNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/rlPassword"
+        android:layout_below="@+id/rlEmail"
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"

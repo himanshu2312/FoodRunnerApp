@@ -2742,6 +2742,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_order
 drawable ic_profile
 drawable ic_remove_from_fav
 drawable ic_search_black_24
@@ -3173,6 +3174,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id order
 id outline
 id outward
 id overshoot
@@ -3504,6 +3506,7 @@ layout drawer_header
 layout fragment_f_a_q
 layout fragment_favorite
 layout fragment_home
+layout fragment_order_history
 layout fragment_profile
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3745,6 +3748,7 @@ string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string open_drawer
+string order
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

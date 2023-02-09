@@ -23,6 +23,7 @@ drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_logout
+drawable ic_order
 drawable ic_profile
 drawable ic_remove_from_fav
 drawable location_icon
@@ -62,6 +63,7 @@ id imgRestaurantImage
 id imgUserProfile
 id logout
 id navigationView
+id order
 id profile
 id progressBar
 id progressBarLayout
@@ -97,6 +99,7 @@ layout drawer_header
 layout fragment_f_a_q
 layout fragment_favorite
 layout fragment_home
+layout fragment_order_history
 layout fragment_profile
 layout single_rastaurant
 menu menu_drawer
@@ -134,6 +137,7 @@ string hnt_password_up_to_4characters
 string home
 string log_out
 string open_drawer
+string order
 string profile
 string que1
 string que2

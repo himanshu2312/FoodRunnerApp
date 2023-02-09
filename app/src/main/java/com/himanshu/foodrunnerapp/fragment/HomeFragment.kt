@@ -104,7 +104,7 @@ class HomeFragment : Fragment() {
 
         } else {
             val dialog = AlertDialog.Builder(context as Context)
-            dialog.setMessage("Error")
+            dialog.setMessage("Internet Connection Error:")
             dialog.setNegativeButton("Exit") { text, listener ->
                 ActivityCompat.finishAffinity(activity as Activity)
             }

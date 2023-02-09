@@ -34,10 +34,10 @@ class ProfileFragment : Fragment() {
         sharedPreferences = (activity as Context).getSharedPreferences(R.string.app_name.toString(),
             AppCompatActivity.MODE_PRIVATE
         )
-        txtUserAddress.text=sharedPreferences.getString("user_address",txtUserAddress.text.toString())
-        txtUserName.text=sharedPreferences.getString("user_name",txtUserAddress.text.toString())
-        txtUserEmail.text=sharedPreferences.getString("user_email",txtUserAddress.text.toString())
-        txtUserMobileNumber.text=sharedPreferences.getString("user_number",txtUserAddress.text.toString())
+        txtUserAddress.text=sharedPreferences.getString("address",txtUserAddress.text.toString())
+        txtUserName.text=sharedPreferences.getString("name",txtUserAddress.text.toString())
+        txtUserEmail.text=sharedPreferences.getString("email",txtUserAddress.text.toString())
+        txtUserMobileNumber.text=sharedPreferences.getString("mobile_number",txtUserAddress.text.toString())
         return view
     }
 

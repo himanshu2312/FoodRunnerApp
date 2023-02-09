@@ -29,7 +29,7 @@
     <string name="des_phone_icon">icon of mobile-phone</string>
     <string name="des_profile_icon">icon of profile</string>
     <string name="faq">FAQs</string>
-    <string name="favorite">Favorite Restaurants</string>
+    <string name="favorite">My Favorite</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hnt_confirm_password">Comfirm Password</string>
     <string name="hnt_delivery_address">Delivery Address</string>
@@ -41,6 +41,7 @@
     <string name="home">Home</string>
     <string name="log_out">Log out</string>
     <string name="open_drawer">Open Drawer</string>
+    <string name="order">My Order</string>
     <string name="profile">My Profile</string>
     <string name="que1">Que: What this App does?</string>
     <string name="que2">Que: Can we add restaurants in favorites as per our choise?</string>

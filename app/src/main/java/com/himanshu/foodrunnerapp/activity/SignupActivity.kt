@@ -1,18 +1,26 @@
 package com.himanshu.foodrunnerapp.activity
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.provider.Settings
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.viewmodel.CreationExtras
+import com.android.volley.Response
+import com.android.volley.toolbox.JsonObjectRequest
+import com.android.volley.toolbox.Volley
 import com.himanshu.foodrunnerapp.R
+import com.himanshu.foodrunnerapp.util.ConnectionManager
+import org.json.JSONException
+import org.json.JSONObject
 
 @Suppress("DEPRECATION")
 class SignupActivity : AppCompatActivity() {
@@ -69,48 +77,125 @@ class SignupActivity : AppCompatActivity() {
                     message,
                     Toast.LENGTH_SHORT
                 ).show()
+            } else if (etUserMobileNumber.text.toString().length != 10) {
+                Toast.makeText(
+                    this@SignupActivity,
+                    "Mobile number should have 10 characters",
+                    Toast.LENGTH_SHORT
+                ).show()
+            } else if (etUserPassword.text.toString().length <= 4) {
+                Toast.makeText(
+                    this@SignupActivity,
+                    "Password length should be more than 4",
+                    Toast.LENGTH_SHORT
+                ).show()
+            } else if (etUserPassword.text.toString() != etConfirmPassword.text.toString()) {
+                Toast.makeText(
+                    this@SignupActivity,
+                    "Entered passwords are not same!!",
+                    Toast.LENGTH_SHORT
+                ).show()
+                etUserPassword.text.clear()
+                etConfirmPassword.text.clear()
+            } else if (ConnectionManager().checkConnectivity(this@SignupActivity)) {
+                val queue = Volley.newRequestQueue(this@SignupActivity)
+                val registerUrl = "http://13.235.250.119/v2/register/fetch_result"
+                val registerCredential = JSONObject()
+                registerCredential.put("name", etUserName.text.toString())
+                registerCredential.put("mobile_number", etUserMobileNumber.text.toString())
+                registerCredential.put("password", etUserPassword.text.toString())
+                registerCredential.put("address", etUserAddress.text.toString())
+                registerCredential.put("email", etUserEmail.text.toString())
+                val jsonObjectRequest =
+                    object : JsonObjectRequest(
+                        Method.POST, registerUrl, registerCredential,
+                        Response.Listener {
+                            try {
+                                val data = it.getJSONObject("data")
+                                val success = data.getBoolean("success")
+                                if (success) {
+                                    val info = data.getJSONObject("data")
+                                    sharedPreferences.edit().clear().apply()
+                                    sharedPreferences.edit()
+                                        .putString("name", info.getString("name"))
+                                        .apply()
+                                    sharedPreferences.edit()
+                                        .putString("email", info.getString("email"))
+                                        .apply()
+                                    sharedPreferences.edit()
+                                        .putString("address", info.getString("address"))
+                                        .apply()
+                                    sharedPreferences.edit()
+                                        .putString("mobile_number", info.getString("mobile_number"))
+                                        .apply()
+                                    sharedPreferences.edit()
+                                        .putString("password", info.getString("password"))
+                                        .apply()
+                                    Toast.makeText(
+                                        this@SignupActivity,
+                                        "Registration success!!\nRedirecting to Home....",
+                                        Toast.LENGTH_SHORT
+                                    ).show()
+                                    val handler = Handler()
+                                    handler.postDelayed(
+                                        {
+                                            val intent = Intent(
+                                                this@SignupActivity,
+                                                MainActivity::class.java
+                                            )
+                                            startActivity(intent)
+                                        }, 2000
+                                    )
+
+                                } else {
+                                    val errorMessage = data.getString("errorMessage")
+                                    Toast.makeText(
+                                        this@SignupActivity,
+                                        errorMessage,
+                                        Toast.LENGTH_SHORT
+                                    ).show()
+                                    etUserEmail.text.clear()
+                                    etUserMobileNumber.text.clear()
+                                    etUserPassword.text.clear()
+                                    etConfirmPassword.text.clear()
+                                }
+                            } catch (e: JSONException) {
+                                Toast.makeText(
+                                    this@SignupActivity,
+                                    "$e",
+                                    Toast.LENGTH_SHORT
+                                ).show()
+                            }
+                        },
+                        Response.ErrorListener {
+                            Toast.makeText(
+                                this@SignupActivity,
+                                "volley error occurred!!",
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }
+                    ) {
+                        override fun getHeaders(): MutableMap<String, String> {
+                            val header = HashMap<String, String>()
+                            header["Content-Type"] = "application/json"
+                            header["token"] = "56e490debc1169"
+                            return header
+                        }
+                    }
+                queue.add(jsonObjectRequest)
             } else {
-                if (etUserPassword.text.toString() == etConfirmPassword.text.toString()) {
-                    sharedPreferences.edit().clear().apply()
-                    sharedPreferences.edit().putString("user_name", etUserName.text.toString())
-                        .apply()
-                    sharedPreferences.edit().putString("user_email", etUserEmail.text.toString())
-                        .apply()
-                    sharedPreferences.edit()
-                        .putString("user_address", etUserAddress.text.toString())
-                        .apply()
-                    sharedPreferences.edit()
-                        .putString("user_number", etUserMobileNumber.text.toString()).apply()
-                    sharedPreferences.edit()
-                        .putString("user_password", etUserPassword.text.toString())
-                        .apply()
-                    Toast.makeText(
-                        this@SignupActivity,
-                        "Registration success!!\nRedirecting to login....",
-                        Toast.LENGTH_SHORT
-                    ).show()
-                    etUserName.text.clear()
-                    etUserEmail.text.clear()
-                    etUserMobileNumber.text.clear()
-                    etUserAddress.text.clear()
-                    etUserPassword.text.clear()
-                    etConfirmPassword.text.clear()
-                    val handler = Handler()
-                    handler.postDelayed(
-                        {
-                            val intent = Intent(this@SignupActivity, LoginActivity::class.java)
-                            startActivity(intent)
-                        }, 2000
-                    )
-                } else {
-                    Toast.makeText(
-                        this@SignupActivity,
-                        "Entered passwords are not same!!",
-                        Toast.LENGTH_SHORT
-                    ).show()
-                    etUserPassword.text.clear()
-                    etConfirmPassword.text.clear()
+                val dialog = AlertDialog.Builder(this@SignupActivity)
+                dialog.setMessage("Internet Connection Error:")
+                dialog.setNegativeButton("Exit") { text, listener ->
+                    ActivityCompat.finishAffinity(this@SignupActivity)
                 }
+                dialog.setPositiveButton("Open Settings") { text, listener ->
+                    val intent = Intent(Settings.ACTION_WIRELESS_SETTINGS)
+                    startActivity(intent)
+                    finish()
+                }
+                dialog.create()
+                dialog.show()
             }
         }
 
