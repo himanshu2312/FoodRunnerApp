@@ -18,6 +18,7 @@
           android:minHeight="?attr/actionBarSize"
           android:theme="@style/ThemeOverlay.AppCompat.Dark"
           android:background="@color/color_primary"
+          app:titleTextColor="?colorOnPrimary"
           />
 
         <FrameLayout

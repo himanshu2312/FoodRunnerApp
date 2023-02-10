@@ -20,6 +20,7 @@ import com.android.volley.Response
 import org.json.JSONException
 import org.json.JSONObject
 
+@Suppress("DEPRECATION")
 class LoginActivity : AppCompatActivity() {
     private lateinit var btnLogin: Button
     private lateinit var etMobileNumber: EditText
@@ -44,7 +45,6 @@ class LoginActivity : AppCompatActivity() {
             btnLogin = findViewById(R.id.btnLogin)
             txtSignup = findViewById(R.id.txtSignup)
             txtForgotPassword = findViewById(R.id.txtForgotPassword)
-
             btnLogin.setOnClickListener {
                 if (etMobileNumber.text.toString().length != 10) {
                     Toast.makeText(
@@ -91,7 +91,7 @@ class LoginActivity : AppCompatActivity() {
                                             .apply()
                                         Toast.makeText(
                                             this@LoginActivity,
-                                            "Registration success!!\nRedirecting to Home....",
+                                            "login success!!\nRedirecting to Home....",
                                             Toast.LENGTH_SHORT
                                         ).show()
                                         val handler = Handler()

@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color black_light
 color color_primary
 color color_primary_dark
 color dollarGreen
@@ -13,6 +14,7 @@ color teal_200
 color teal_700
 color white
 drawable btn_bg
+drawable dark_et_bg
 drawable et_bg
 drawable food_runner
 drawable food_runner_logo
@@ -23,6 +25,7 @@ drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_logout
+drawable ic_mobile
 drawable ic_order
 drawable ic_profile
 drawable ic_remove_from_fav
@@ -34,6 +37,7 @@ drawable profile_icon
 id btnLogin
 id btnNext
 id btnRegister
+id btnSubmit
 id etConfirmPassword
 id etEmail
 id etMobileNumber
@@ -42,6 +46,7 @@ id etNewEmail
 id etNewMobileNumber
 id etNewName
 id etNewPassword
+id etOtp
 id etPassword
 id faq
 id favorite
@@ -68,6 +73,7 @@ id profile
 id progressBar
 id progressBarLayout
 id rlConfirmPassword
+id rlEmail
 id rlMobileNumber
 id rlNewDeliveryAddress
 id rlNewEmail
@@ -93,6 +99,7 @@ id txtUserName
 layout activity_forgot
 layout activity_login
 layout activity_main
+layout activity_otp
 layout activity_signup
 layout activity_splash
 layout drawer_header

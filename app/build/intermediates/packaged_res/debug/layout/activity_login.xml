@@ -83,7 +83,7 @@
             android:inputType="textPassword"
             android:backgroundTint="@color/black"
             android:maxLines="1"
-            android:textSize="18sp" />
+            android:textSize="18sp"/>
 
     </RelativeLayout>
 

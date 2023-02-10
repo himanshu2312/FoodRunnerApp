@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             }
             else{
                 sharedPreferences=getSharedPreferences(R.string.app_name.toString(), MODE_PRIVATE)
-                sharedPreferences.edit().putBoolean("isLoggedIn",false).apply()
+                sharedPreferences.edit().clear().apply()
                 val intent=Intent(this@MainActivity,LoginActivity::class.java)
                 startActivity(intent)
                 finish()
@@ -96,6 +96,7 @@ class MainActivity : AppCompatActivity() {
         sideDrawer.close()
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         when(supportFragmentManager.findFragmentById(R.id.frameLayout)){
             !is HomeFragment -> {

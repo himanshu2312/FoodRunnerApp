@@ -11,4 +11,5 @@
     <color name="color_primary_dark">#d50000</color>
     <color name="dollarGreen">#4caf50</color>
     <color name="ratingGold">#ffca28</color>
+    <color name="black_light">#343434</color>
 </resources>

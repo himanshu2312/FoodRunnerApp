@@ -1305,6 +1305,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color black_light
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2716,6 +2717,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable dark_et_bg
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2738,6 +2740,7 @@ drawable ic_logout
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
+drawable ic_mobile
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -2926,6 +2929,7 @@ id bounceStart
 id btnLogin
 id btnNext
 id btnRegister
+id btnSubmit
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3013,6 +3017,7 @@ id etNewEmail
 id etNewMobileNumber
 id etNewName
 id etNewPassword
+id etOtp
 id etPassword
 id exitUntilCollapsed
 id expand_activities_button
@@ -3207,6 +3212,7 @@ id rightToLeft
 id right_icon
 id right_side
 id rlConfirmPassword
+id rlEmail
 id rlMobileNumber
 id rlNewDeliveryAddress
 id rlNewEmail
@@ -3484,6 +3490,7 @@ layout abc_tooltip
 layout activity_forgot
 layout activity_login
 layout activity_main
+layout activity_otp
 layout activity_signup
 layout activity_splash
 layout custom_dialog

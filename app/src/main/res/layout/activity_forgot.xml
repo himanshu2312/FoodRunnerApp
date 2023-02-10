@@ -51,18 +51,21 @@
             android:contentDescription="@string/des_phone_icon" />
 
         <EditText
-            android:id="@+id/etRegisteredMobileNumber"
+            android:autoHandwritingEnabled="true"
+            android:autofillHints="phone"
+            android:backgroundTint="@color/black"
+            android:id="@+id/etMobileNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_toEndOf="@id/imgRegisteredMobile"
-            android:autofillHints="phone"
+            android:textColor="@color/black"
             android:hint="@string/hnt_mobile_number"
             android:inputType="phone"
             android:maxLength="10"
             android:maxLines="1"
             android:textSize="18sp"
-            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+            android:layout_centerVertical="true"
+            tools:targetApi="tiramisu" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -84,7 +87,7 @@
             android:contentDescription="@string/des_mail_icon" />
 
         <EditText
-            android:id="@+id/etRegisteredEmail"
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -92,9 +95,12 @@
             android:autofillHints="emailAddress"
             android:hint="@string/hnt_email_address"
             android:inputType="textEmailAddress"
+            android:autoHandwritingEnabled="true"
             android:maxLines="1"
+            android:textColor="@color/black"
             android:textSize="18sp"
-            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+            android:backgroundTint="@color/black"
+            tools:targetApi="tiramisu" />
 
     </RelativeLayout>
 

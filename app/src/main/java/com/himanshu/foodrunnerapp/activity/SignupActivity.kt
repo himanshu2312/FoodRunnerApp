@@ -146,6 +146,7 @@ class SignupActivity : AppCompatActivity() {
                                             startActivity(intent)
                                         }, 2000
                                     )
+                                    finish()
 
                                 } else {
                                     val errorMessage = data.getString("errorMessage")
@@ -201,13 +202,9 @@ class SignupActivity : AppCompatActivity() {
 
     }
 
-    override fun onPause() {
-        super.onPause()
-        finish()
-    }
-
     override fun onBackPressed() {
         val intent = Intent(this@SignupActivity, LoginActivity::class.java)
         startActivity(intent)
+        finish()
     }
 }

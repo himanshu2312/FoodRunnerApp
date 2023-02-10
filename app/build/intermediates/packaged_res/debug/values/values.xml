@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="black_light">#343434</color>
     <color name="color_primary">#FC493E</color>
     <color name="color_primary_dark">#d50000</color>
     <color name="dollarGreen">#4caf50</color>
@@ -58,7 +59,7 @@
         <item name="colorOnPrimary">@color/white</item>
         
         <item name="colorSecondary">@color/color_primary_dark</item>
-        <item name="colorSecondaryVariant">@color/color_primary_dark</item>
+        <item name="colorSecondaryVariant">@color/white</item>
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor">@color/color_primary_dark</item>

@@ -18,6 +18,7 @@ import com.himanshu.foodrunnerapp.util.ConnectionManager
 import org.json.JSONException
 import org.json.JSONObject
 
+@Suppress("DEPRECATION")
 class ForgotActivity : AppCompatActivity() {
     private lateinit var etRegisteredMobileNumber: EditText
     private lateinit var etRegisteredEmail: EditText
@@ -25,8 +26,8 @@ class ForgotActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forgot)
-        etRegisteredEmail=findViewById(R.id.etRegisteredEmail)
-        etRegisteredMobileNumber=findViewById(R.id.etRegisteredMobileNumber)
+        etRegisteredEmail=findViewById(R.id.etEmail)
+        etRegisteredMobileNumber=findViewById(R.id.etMobileNumber)
         btnNext=findViewById(R.id.btnNext)
         btnNext.setOnClickListener {
             if (etRegisteredMobileNumber.text.toString().length != 10) {
@@ -40,12 +41,12 @@ class ForgotActivity : AppCompatActivity() {
             else if (ConnectionManager().checkConnectivity(this@ForgotActivity)) {
                 val queue = Volley.newRequestQueue(this@ForgotActivity)
                 val otpUrl = "http://13.235.250.119/v2/forgot_password/fetch_result"
-                val otpCredential = JSONObject()
-                otpCredential.put("mobile_number", etRegisteredMobileNumber.text.toString())
-                otpCredential.put("email", etRegisteredEmail.text.toString())
+                val forgotCredential = JSONObject()
+                forgotCredential.put("mobile_number", etRegisteredMobileNumber.text.toString())
+                forgotCredential.put("email", etRegisteredEmail.text.toString())
                 val jsonObjectRequest =
                     object : JsonObjectRequest(
-                        Method.POST, otpUrl, otpCredential,
+                        Method.POST, otpUrl, forgotCredential,
                         Response.Listener {
                             try {
                                 val data = it.getJSONObject("data")
@@ -61,11 +62,13 @@ class ForgotActivity : AppCompatActivity() {
                                         {
                                             val intent = Intent(
                                                 this@ForgotActivity,
-                                                MainActivity::class.java
+                                                OtpActivity::class.java
                                             )
+                                            intent.putExtra("mobile_number",etRegisteredMobileNumber.text.toString())
                                             startActivity(intent)
                                         }, 2000
                                     )
+                                    finish()
 
                                 } else {
                                     val errorMessage = data.getString("errorMessage")
@@ -114,8 +117,9 @@ class ForgotActivity : AppCompatActivity() {
                 dialog.show()
             }
         }
-
     }
+
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         val intent = Intent(this@ForgotActivity, LoginActivity::class.java)
         startActivity(intent)
