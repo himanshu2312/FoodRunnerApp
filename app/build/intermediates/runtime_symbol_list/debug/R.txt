@@ -2920,11 +2920,14 @@ int id beginOnFirstDraw 0x7f080059
 int id beginning 0x7f08005a
 int id bestChoice 0x7f08005b
 int id blocking 0x7f08005c
+int id border 0x7f08022b
 int id bottom 0x7f08005d
 int id bounce 0x7f08005e
 int id bounceBoth 0x7f08005f
 int id bounceEnd 0x7f080060
 int id bounceStart 0x7f080061
+int id btnAddToCart 0x7f08022c
+int id btnCart 0x7f08022d
 int id btnLogin 0x7f080062
 int id btnNext 0x7f080063
 int id btnRegister 0x7f080064
@@ -3095,6 +3098,7 @@ int id line3 0x7f080106
 int id linear 0x7f080107
 int id listMode 0x7f080108
 int id list_item 0x7f080109
+int id llContent 0x7f08022e
 int id logout 0x7f08010a
 int id m3_side_sheet 0x7f08010b
 int id marquee 0x7f08010c
@@ -3212,6 +3216,7 @@ int id right_icon 0x7f08017b
 int id right_side 0x7f08017c
 int id rlConfirmPassword 0x7f08017d
 int id rlEmail 0x7f08022a
+int id rlHeader 0x7f08022f
 int id rlMobileNumber 0x7f08017e
 int id rlNewDeliveryAddress 0x7f08017f
 int id rlNewEmail 0x7f080180
@@ -3219,10 +3224,10 @@ int id rlNewMobileNumber 0x7f080181
 int id rlNewName 0x7f080182
 int id rlNewPassword 0x7f080183
 int id rlPassword 0x7f080184
-int id rlRestaurantDetail 0x7f080185
 int id rounded 0x7f080186
 int id row_index_key 0x7f080187
 int id rvFavRestaurantList 0x7f080188
+int id rvMenuItem 0x7f080230
 int id rvRestaurantList 0x7f080189
 int id save_non_transition_alpha 0x7f08018a
 int id save_overlay_view 0x7f08018b
@@ -3348,7 +3353,11 @@ int id transition_scene_layoutid_cache 0x7f080202
 int id transition_transform 0x7f080203
 int id triangle 0x7f080204
 int id txtForgotPassword 0x7f080205
+int id txtHeader 0x7f080231
 int id txtInputDescription 0x7f080206
+int id txtItemId 0x7f080234
+int id txtItemName 0x7f080232
+int id txtItemPrice 0x7f080233
 int id txtRestaurantName 0x7f080207
 int id txtRestaurantPrice 0x7f080208
 int id txtRestaurantRating 0x7f080209
@@ -3489,6 +3498,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_forgot 0x7f0b001c
 int layout activity_login 0x7f0b001d
 int layout activity_main 0x7f0b001e
+int layout activity_menu 0x7f0b0076
 int layout activity_otp 0x7f0b0075
 int layout activity_signup 0x7f0b001f
 int layout activity_splash 0x7f0b0020
@@ -3574,6 +3584,7 @@ int layout notification_template_part_time 0x7f0b006f
 int layout select_dialog_item_material 0x7f0b0070
 int layout select_dialog_multichoice_material 0x7f0b0071
 int layout select_dialog_singlechoice_material 0x7f0b0072
+int layout single_menu_item 0x7f0b0077
 int layout single_rastaurant 0x7f0b0073
 int layout support_simple_spinner_dropdown_item 0x7f0b0074
 int menu menu_drawer 0x7f0d0000

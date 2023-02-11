@@ -1,23 +1,26 @@
-package com.himanshu.foodrunnerapp.adapter
+@file:Suppress("DEPRECATION")
 
+package com.himanshu.foodrunnerapp.adapter
 import android.content.Context
-import android.content.res.Resources
+import android.content.Intent
 import android.os.AsyncTask
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
 import com.himanshu.foodrunnerapp.R
+import com.himanshu.foodrunnerapp.activity.MenuActivity
 import com.himanshu.foodrunnerapp.datbase.ResDatabase
 import com.himanshu.foodrunnerapp.datbase.RestaurantEntity
 import com.squareup.picasso.Picasso
 
 @Suppress("DEPRECATION")
-class RestaurantListAdapter(val context: Context, private val resList: List<RestaurantEntity>): RecyclerView.Adapter<RestaurantListAdapter.RestaurantViewHolder>(){
+class RestaurantListAdapter(private val context: Context, private val resList: List<RestaurantEntity>): RecyclerView.Adapter<RestaurantListAdapter.RestaurantViewHolder>(){
 
     class RestaurantViewHolder(view: View): RecyclerView.ViewHolder(view){
         val txtRestaurantName: TextView=view.findViewById(R.id.txtRestaurantName)
@@ -25,6 +28,7 @@ class RestaurantListAdapter(val context: Context, private val resList: List<Rest
         val txtRestaurantRating: TextView=view.findViewById(R.id.txtRestaurantRating)
         val imgRestaurantImage: ImageView=view.findViewById(R.id.imgRestaurantImage)
         val imgFavorite: ImageView=view.findViewById(R.id.imgFavorite)
+        val llContent: LinearLayout=view.findViewById(R.id.llContent)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RestaurantViewHolder {
@@ -74,19 +78,24 @@ class RestaurantListAdapter(val context: Context, private val resList: List<Rest
                 }
             }
         }
+        holder.llContent.setOnClickListener {
+            val intent=Intent(context,MenuActivity::class.java)
+            intent.putExtra("res_name",res.resName)
+            intent.putExtra("res_id",res.resId)
+            context.startActivity(intent)
+        }
     }
+
 
     override fun getItemCount(): Int {
         return resList.size
     }
 
     @Suppress("DEPRECATION")
-    class FavResData(private val context: Context, private val restaurantEntity: RestaurantEntity, private val mode: Int): AsyncTask<Void,Void,Boolean>(){
+    class FavResData(context: Context, private val restaurantEntity: RestaurantEntity, private val mode: Int): AsyncTask<Void,Void,Boolean>(){
         private val db=Room.databaseBuilder(context,ResDatabase::class.java,"res_db").build()
+        @Deprecated("Deprecated in Java")
         override fun doInBackground(vararg p0: Void?): Boolean {
-            /*mode: 1 check for res in favlist
-            mode: 2 insert res in favlist
-            else : delete res from favlist */
             when(mode){
                 1->{
                     val res: RestaurantEntity?=db.resDao().getFavResByID(restaurantEntity.resId)

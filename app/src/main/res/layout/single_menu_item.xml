@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="5dp"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:background="?colorOnPrimary"
+    android:layout_height="70dp">
+
+    <TextView
+        android:id="@+id/txtItemId"
+        android:layout_width="0dp"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="14sp"
+        android:layout_gravity="center"/>
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6.3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="?colorOnSecondary"
+            android:id="@+id/txtItemName"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtItemPrice"
+            android:padding="5dp"
+            android:text="Rs.200"
+            android:layout_alignParentBottom="true"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddToCart"
+        android:layout_gravity="center"
+        android:layout_weight="2.7"
+        android:layout_width="0dp"
+        android:text="Add"
+        android:textColor="?colorOnPrimary"
+        android:textSize="18sp"
+        android:layout_height="30dp"
+        android:background="@color/color_primary"/>
+</LinearLayout>

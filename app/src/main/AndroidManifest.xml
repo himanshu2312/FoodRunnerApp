@@ -21,10 +21,17 @@
         android:theme="@style/Theme.FoodRunnerApp"
         tools:targetApi="31">
         <activity
-            android:screenOrientation="portrait"
-            android:configChanges="orientation|screenSize"
-            android:name=".activity.OtpActivity"
+            android:name=".activity.MenuActivity"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.OtpActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

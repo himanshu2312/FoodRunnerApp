@@ -35,6 +35,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.FoodRunnerApp" >
         <activity
+            android:name="com.himanshu.foodrunnerapp.activity.MenuActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.himanshu.foodrunnerapp.activity.OtpActivity"
             android:configChanges="orientation|screenSize"
             android:exported="false"

@@ -9,6 +9,7 @@
     app:cardCornerRadius="10dp">
 
     <LinearLayout
+        android:id="@+id/llContent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="6">
@@ -24,7 +25,6 @@
             android:src="@drawable/food_runner" />
 
         <RelativeLayout
-            android:id="@+id/rlRestaurantDetail"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginStart="5dp"

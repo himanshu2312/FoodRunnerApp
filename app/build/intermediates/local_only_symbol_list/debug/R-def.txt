@@ -34,6 +34,9 @@ drawable mail_icon
 drawable password_icon
 drawable phone_icon
 drawable profile_icon
+id border
+id btnAddToCart
+id btnCart
 id btnLogin
 id btnNext
 id btnRegister
@@ -66,6 +69,7 @@ id imgProfile
 id imgRegisteredMobile
 id imgRestaurantImage
 id imgUserProfile
+id llContent
 id logout
 id navigationView
 id order
@@ -74,6 +78,7 @@ id progressBar
 id progressBarLayout
 id rlConfirmPassword
 id rlEmail
+id rlHeader
 id rlMobileNumber
 id rlNewDeliveryAddress
 id rlNewEmail
@@ -81,13 +86,17 @@ id rlNewMobileNumber
 id rlNewName
 id rlNewPassword
 id rlPassword
-id rlRestaurantDetail
 id rvFavRestaurantList
+id rvMenuItem
 id rvRestaurantList
 id sideDrawer
 id toolbar
 id txtForgotPassword
+id txtHeader
 id txtInputDescription
+id txtItemId
+id txtItemName
+id txtItemPrice
 id txtRestaurantName
 id txtRestaurantPrice
 id txtRestaurantRating
@@ -99,6 +108,7 @@ id txtUserName
 layout activity_forgot
 layout activity_login
 layout activity_main
+layout activity_menu
 layout activity_otp
 layout activity_signup
 layout activity_splash
@@ -108,6 +118,7 @@ layout fragment_favorite
 layout fragment_home
 layout fragment_order_history
 layout fragment_profile
+layout single_menu_item
 layout single_rastaurant
 menu menu_drawer
 mipmap ic_app_logo

@@ -12,3 +12,11 @@ data class RestaurantEntity (
       @ColumnInfo(name = "res_cost") val resCostforOne: String,
       @ColumnInfo(name = "res_image") val resImage:String
       )
+
+@Entity("cartItem")
+data class ItemEntity(
+      @PrimaryKey @ColumnInfo(name = "id") val id: String,
+      @ColumnInfo(name = "item_name") val itemName: String,
+      @ColumnInfo(name = "item_cost") val itemCostForOne: String,
+      @ColumnInfo(name = "res_id") val resId:String
+)

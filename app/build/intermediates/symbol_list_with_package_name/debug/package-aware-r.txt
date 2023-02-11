@@ -2921,11 +2921,14 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id border
 id bottom
 id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAddToCart
+id btnCart
 id btnLogin
 id btnNext
 id btnRegister
@@ -3096,6 +3099,7 @@ id line3
 id linear
 id listMode
 id list_item
+id llContent
 id logout
 id m3_side_sheet
 id marquee
@@ -3213,6 +3217,7 @@ id right_icon
 id right_side
 id rlConfirmPassword
 id rlEmail
+id rlHeader
 id rlMobileNumber
 id rlNewDeliveryAddress
 id rlNewEmail
@@ -3220,10 +3225,10 @@ id rlNewMobileNumber
 id rlNewName
 id rlNewPassword
 id rlPassword
-id rlRestaurantDetail
 id rounded
 id row_index_key
 id rvFavRestaurantList
+id rvMenuItem
 id rvRestaurantList
 id save_non_transition_alpha
 id save_overlay_view
@@ -3349,7 +3354,11 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txtForgotPassword
+id txtHeader
 id txtInputDescription
+id txtItemId
+id txtItemName
+id txtItemPrice
 id txtRestaurantName
 id txtRestaurantPrice
 id txtRestaurantRating
@@ -3490,6 +3499,7 @@ layout abc_tooltip
 layout activity_forgot
 layout activity_login
 layout activity_main
+layout activity_menu
 layout activity_otp
 layout activity_signup
 layout activity_splash
@@ -3575,6 +3585,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout single_menu_item
 layout single_rastaurant
 layout support_simple_spinner_dropdown_item
 menu menu_drawer
