@@ -55,11 +55,6 @@ class MenuItemAdapter(
                     holder.btnAddToCart.text = "Remove"
                     holder.btnAddToCart.setBackgroundColor(context.resources.getColor(R.color.ratingGold))
                     count++
-                    Toast.makeText(
-                        context,
-                        "item added to cart!!",
-                        Toast.LENGTH_SHORT
-                    ).show()
                 } else {
                     Toast.makeText(
                         context,
@@ -73,11 +68,6 @@ class MenuItemAdapter(
                     holder.btnAddToCart.text = "Add"
                     holder.btnAddToCart.setBackgroundColor(context.resources.getColor(R.color.color_primary))
                     count--
-                    Toast.makeText(
-                        context,
-                        "item removed from cart!!",
-                        Toast.LENGTH_SHORT
-                    ).show()
                 } else {
                     Toast.makeText(
                         context,

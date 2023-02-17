@@ -39,7 +39,8 @@ class RestaurantListAdapter(private val context: Context, private val resList: L
     override fun onBindViewHolder(holder: RestaurantViewHolder, position: Int) {
         val res= resList[position]
         holder.txtRestaurantName.text=res.resName
-        holder.txtRestaurantPrice.text=res.resCostforOne
+        val cost="Rs.${res.resCostforOne}/person"
+        holder.txtRestaurantPrice.text=cost
         holder.txtRestaurantRating.text=res.resRating
         Picasso.get().load(res.resImage).error(R.drawable.food_runner).into(holder.imgRestaurantImage)
         if(FavResData(context,res,1).execute().get()){
@@ -49,11 +50,6 @@ class RestaurantListAdapter(private val context: Context, private val resList: L
             if (!FavResData(context,res,1).execute().get()){
                 if (FavResData(context,res,2).execute().get()){
                     holder.imgFavorite.setImageResource(R.drawable.ic_remove_from_fav)
-                    Toast.makeText(
-                        context,
-                        "Restaurant added to favorites!!",
-                        Toast.LENGTH_SHORT
-                    ).show()
                 }else{
                     Toast.makeText(
                         context,
@@ -64,11 +60,6 @@ class RestaurantListAdapter(private val context: Context, private val resList: L
             }else{
                 if (FavResData(context,res,3).execute().get()){
                     holder.imgFavorite.setImageResource(R.drawable.ic_add_to_fav)
-                    Toast.makeText(
-                        context,
-                        "Restaurant removed from favorites!!",
-                        Toast.LENGTH_SHORT
-                    ).show()
                 }else{
                     Toast.makeText(
                         context,
@@ -80,8 +71,9 @@ class RestaurantListAdapter(private val context: Context, private val resList: L
         }
         holder.llContent.setOnClickListener {
             val intent=Intent(context,MenuActivity::class.java)
-            intent.putExtra("res_name",res.resName)
-            intent.putExtra("res_id",res.resId)
+            val sharedPreferences=context.getSharedPreferences(R.string.app_name.toString(),Context.MODE_PRIVATE)
+            sharedPreferences.edit().putString("res_name",res.resName).apply()
+            sharedPreferences.edit().putString("res_id",res.resId).apply()
             context.startActivity(intent)
         }
     }

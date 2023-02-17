@@ -1,7 +1,11 @@
+@file:Suppress("DEPRECATION")
+
 package com.himanshu.foodrunnerapp.activity
 
 import android.app.AlertDialog
+import android.content.Context
 import android.content.Intent
+import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Settings
@@ -37,7 +41,9 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
         toolbar=findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
-        supportActionBar?.title = intent.getStringExtra("res_name")
+        val  sharedPreferences=getSharedPreferences(R.string.app_name.toString(), MODE_PRIVATE)
+        val title= sharedPreferences.getString("res_name","Menu")
+        supportActionBar?.title = title
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         progressBarLayout = findViewById(R.id.progressBarLayout)
@@ -45,7 +51,7 @@ class MenuActivity : AppCompatActivity() {
         btnCart.visibility = View.GONE
         progressBarLayout.visibility = View.VISIBLE
         rvMenuItem = findViewById(R.id.rvMenuItem)
-        resId=intent.getStringExtra("res_id")
+        resId=sharedPreferences.getString("res_id",null)
         if (resId==null){
             Toast.makeText(
                 this@MenuActivity,
@@ -117,12 +123,59 @@ class MenuActivity : AppCompatActivity() {
             dialog.create()
             dialog.show()
         }
+        btnCart.setOnClickListener {
+            val intent=Intent(this@MenuActivity,CartActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId==android.R.id.home){
-            super.onBackPressed()
+            onBackPressed()
         }
         return super.onOptionsItemSelected(item)
     }
+
+
+    class ItemData(context: Context):AsyncTask<Void,Void,Boolean>(){
+        private val db=Room.databaseBuilder(context,ItemDatabase::class.java,"item_db").build()
+        @Deprecated("Deprecated in Java")
+        override fun doInBackground(vararg p0: Void?): Boolean {
+            db.itemDao().deleteAllItem()
+            db.close()
+            return true
+        }
+
+    }
+
+    @Deprecated("Deprecated in Java")
+    override fun onBackPressed() {
+        if (!ItemData(this@MenuActivity).execute().get()){
+            Toast.makeText(
+                this@MenuActivity,
+                "something went wrong",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
+        val intent = Intent(this@MenuActivity, MainActivity::class.java)
+        startActivity(intent)
+    }
+
+    override fun onStop() {
+        if (!ItemData(this@MenuActivity).execute().get()){
+            Toast.makeText(
+                this@MenuActivity,
+                "something went wrong",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
+        super.onStop()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        finish()
+    }
+
+
 }

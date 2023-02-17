@@ -89,11 +89,6 @@ class LoginActivity : AppCompatActivity() {
                                         sharedPreferences.edit()
                                             .putString("mobile_number", info.getString("mobile_number"))
                                             .apply()
-                                        Toast.makeText(
-                                            this@LoginActivity,
-                                            "login success!!\nRedirecting to Home....",
-                                            Toast.LENGTH_SHORT
-                                        ).show()
                                         val handler = Handler()
                                         handler.postDelayed(
                                             {

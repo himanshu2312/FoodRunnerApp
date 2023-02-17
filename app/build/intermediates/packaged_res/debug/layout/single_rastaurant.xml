@@ -2,7 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="120dp"
+    android:layout_height="110dp"
     android:layout_margin="6dp"
     android:background="?colorOnPrimary"
     android:orientation="horizontal"
@@ -50,7 +50,7 @@
                 android:text="Rs.400"
                 android:padding="4dp"
                 android:textColor="@color/dollarGreen"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
         </RelativeLayout>
 

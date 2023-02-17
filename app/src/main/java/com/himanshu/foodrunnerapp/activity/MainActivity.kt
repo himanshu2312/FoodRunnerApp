@@ -1,5 +1,6 @@
 package com.himanshu.foodrunnerapp.activity
 
+import android.app.AlertDialog
 import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
@@ -50,11 +51,22 @@ class MainActivity : AppCompatActivity() {
                 openFragment(it.title.toString())
             }
             else{
-                sharedPreferences=getSharedPreferences(R.string.app_name.toString(), MODE_PRIVATE)
-                sharedPreferences.edit().clear().apply()
-                val intent=Intent(this@MainActivity,LoginActivity::class.java)
-                startActivity(intent)
-                finish()
+                val dialog=AlertDialog.Builder(this@MainActivity)
+                dialog.setMessage("Confirmation")
+                dialog.setPositiveButton("Yes"){
+                    text, listener->
+                    sharedPreferences=getSharedPreferences(R.string.app_name.toString(), MODE_PRIVATE)
+                    sharedPreferences.edit().clear().apply()
+                    val intent=Intent(this@MainActivity,LoginActivity::class.java)
+                    startActivity(intent)
+                }
+                dialog.setNegativeButton("No"){
+                    text, listener->
+                    sideDrawer.close()
+                }
+                dialog.create()
+                dialog.show()
+
             }
             return@setNavigationItemSelectedListener true
         }
@@ -105,5 +117,10 @@ class MainActivity : AppCompatActivity() {
             }
             else -> super.onBackPressed()
         }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        finish()
     }
 }

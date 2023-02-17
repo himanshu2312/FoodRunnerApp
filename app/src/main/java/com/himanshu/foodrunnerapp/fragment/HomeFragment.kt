@@ -62,9 +62,17 @@ class HomeFragment : Fragment() {
                                      resObj.getString("image_url")
                                  )
                                  resList.add(res)
+                                 if(activity!=null){
                                  progressBarLayout.visibility=View.GONE
                                  rvRestaurantList.adapter=RestaurantListAdapter(activity as Context,resList)
-                                 rvRestaurantList.layoutManager=LinearLayoutManager(activity as Context)
+                                 rvRestaurantList.layoutManager=LinearLayoutManager(activity as Context)}
+                                 else{
+                                     Toast.makeText(
+                                         activity as Context,
+                                         "something went wrong",
+                                         Toast.LENGTH_SHORT
+                                     ).show()
+                                 }
                              }
                          }catch (e: JSONException){
                              Toast.makeText(

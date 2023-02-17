@@ -120,6 +120,9 @@ class SignupActivity : AppCompatActivity() {
                                         .putString("name", info.getString("name"))
                                         .apply()
                                     sharedPreferences.edit()
+                                        .putString("user_id", info.getString("user_id"))
+                                        .apply()
+                                    sharedPreferences.edit()
                                         .putString("email", info.getString("email"))
                                         .apply()
                                     sharedPreferences.edit()
@@ -128,12 +131,9 @@ class SignupActivity : AppCompatActivity() {
                                     sharedPreferences.edit()
                                         .putString("mobile_number", info.getString("mobile_number"))
                                         .apply()
-                                    sharedPreferences.edit()
-                                        .putString("password", info.getString("password"))
-                                        .apply()
                                     Toast.makeText(
                                         this@SignupActivity,
-                                        "Registration success!!\nRedirecting to Home....",
+                                        "Registration success!!",
                                         Toast.LENGTH_SHORT
                                     ).show()
                                     val handler = Handler()

@@ -34,11 +34,13 @@ drawable mail_icon
 drawable password_icon
 drawable phone_icon
 drawable profile_icon
+drawable txt_bg
 id border
 id btnAddToCart
 id btnCart
 id btnLogin
 id btnNext
+id btnPlaceOrder
 id btnRegister
 id btnSubmit
 id etConfirmPassword
@@ -86,6 +88,7 @@ id rlNewMobileNumber
 id rlNewName
 id rlNewPassword
 id rlPassword
+id rvCartItem
 id rvFavRestaurantList
 id rvMenuItem
 id rvRestaurantList
@@ -97,6 +100,7 @@ id txtInputDescription
 id txtItemId
 id txtItemName
 id txtItemPrice
+id txtResName
 id txtRestaurantName
 id txtRestaurantPrice
 id txtRestaurantRating
@@ -105,10 +109,12 @@ id txtUserDeliveryAddress
 id txtUserEmail
 id txtUserMobileNumber
 id txtUserName
+layout activity_cart
 layout activity_forgot
 layout activity_login
 layout activity_main
 layout activity_menu
+layout activity_order_success
 layout activity_otp
 layout activity_signup
 layout activity_splash
@@ -118,6 +124,7 @@ layout fragment_favorite
 layout fragment_home
 layout fragment_order_history
 layout fragment_profile
+layout single_cart_item
 layout single_menu_item
 layout single_rastaurant
 menu menu_drawer

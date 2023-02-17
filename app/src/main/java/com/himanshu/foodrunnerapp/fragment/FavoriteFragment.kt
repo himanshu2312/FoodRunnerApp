@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.himanshu.foodrunnerapp.fragment
 
 import android.content.Context
@@ -15,7 +17,6 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
 import com.himanshu.foodrunnerapp.R
 import com.himanshu.foodrunnerapp.adapter.FavResAdapter
-import com.himanshu.foodrunnerapp.adapter.RestaurantListAdapter
 import com.himanshu.foodrunnerapp.datbase.ResDatabase
 import com.himanshu.foodrunnerapp.datbase.RestaurantEntity
 
@@ -40,7 +41,7 @@ class FavoriteFragment : Fragment() {
         progressBarLayout.visibility = View.VISIBLE
         if (activity != null) {
             progressBarLayout.visibility=View.GONE
-            favResList=FavResData(activity as Context).execute().get()
+            favResList= FavResData(activity as Context).execute().get()
             if (favResList.isEmpty()){
                 Toast.makeText(
                     activity as  Context,
@@ -57,12 +58,12 @@ class FavoriteFragment : Fragment() {
         return view
     }
 
-    @Suppress("DEPRECATION")
-    class FavResData(private val context: Context) :
-        AsyncTask<Void, Void, List<RestaurantEntity>>() {
-        private val db = Room.databaseBuilder(context, ResDatabase::class.java, "res_db").build()
-        override fun doInBackground(vararg p0: Void?): List<RestaurantEntity>{
-           return db.resDao().getAllRes()
+    class FavResData(context: Context): AsyncTask<Void,Void,List<RestaurantEntity>>(){
+        val db=Room.databaseBuilder(context,ResDatabase::class.java,"res_db").build()
+        @Deprecated("Deprecated in Java", ReplaceWith("db.resDao().getAllRes()"))
+        override fun doInBackground(vararg p0: Void?): List<RestaurantEntity> {
+            return db.resDao().getAllRes()
         }
     }
+
 }

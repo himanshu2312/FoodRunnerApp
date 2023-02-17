@@ -35,8 +35,28 @@
         android:testOnly="true"
         android:theme="@style/Theme.FoodRunnerApp" >
         <activity
+            android:name="com.himanshu.foodrunnerapp.activity.OrderSuccessActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.himanshu.foodrunnerapp.activity.CartActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.himanshu.foodrunnerapp.activity.MenuActivity"
-            android:exported="false" >
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -52,6 +72,7 @@
         </activity>
         <activity
             android:name="com.himanshu.foodrunnerapp.activity.SignupActivity"
+            android:configChanges="screenSize|orientation"
             android:exported="false"
             android:screenOrientation="portrait" >
             <meta-data

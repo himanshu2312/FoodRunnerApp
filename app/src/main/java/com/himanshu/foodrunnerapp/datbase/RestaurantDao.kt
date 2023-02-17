@@ -32,4 +32,7 @@ interface ItemDao {
 
     @Query(value = "SELECT * FROM cartItem WHERE id = :itemId")
     fun getCartItemByID(itemId: String): ItemEntity
+
+    @Query(value = "DELETE FROM cartItem")
+    fun deleteAllItem()
 }
