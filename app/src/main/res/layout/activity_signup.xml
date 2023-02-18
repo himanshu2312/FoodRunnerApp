@@ -34,7 +34,7 @@
             android:layout_toEndOf="@+id/imgProfile"
             android:autofillHints="name"
             android:hint="@string/hnt_name"
-            android:textColor="@color/black"
+            android:textColor="?colorOnSecondary"
             android:inputType="textPersonName"
             android:maxLines="1"
             android:padding="10dp"
@@ -64,7 +64,7 @@
 
         <EditText
             android:backgroundTint="@color/black"
-            android:textColor="@color/black"
+            android:textColor="?colorOnSecondary"
             android:id="@+id/etNewEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
 
         <EditText
             android:backgroundTint="@color/black"
-            android:textColor="@color/black"
+            android:textColor="?colorOnSecondary"
             android:id="@+id/etNewMobileNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
 
         <EditText
             android:backgroundTint="@color/black"
-            android:textColor="@color/black"
+            android:textColor="?colorOnSecondary"
             android:id="@+id/etNewDeliveryAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
 
         <EditText
             android:backgroundTint="@color/black"
-            android:textColor="@color/black"
+            android:textColor="?colorOnSecondary"
             android:id="@+id/etNewPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -202,7 +202,7 @@
 
 
         <EditText
-            android:textColor="@color/black"
+            android:textColor="?colorOnSecondary"
             android:id="@+id/etConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -226,7 +226,7 @@
         android:layout_marginRight="15dp"
         android:background="@drawable/btn_bg"
         android:text="@string/btn_register"
-        android:textColor="@color/white"
+        android:textColor="?colorOnPrimary"
         android:textSize="18sp"
         android:textStyle="bold" />
 

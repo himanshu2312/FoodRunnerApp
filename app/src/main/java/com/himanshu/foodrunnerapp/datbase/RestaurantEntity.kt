@@ -20,3 +20,11 @@ data class ItemEntity(
       @ColumnInfo(name = "item_cost") val itemCostForOne: String,
       @ColumnInfo(name = "res_id") val resId:String
 )
+
+data class OrderHistory(
+      val orderId: String,
+      val resName: String,
+      val totalCost: String,
+      val orderPlacedAt: String,
+      val itemList: List<ItemEntity>
+)

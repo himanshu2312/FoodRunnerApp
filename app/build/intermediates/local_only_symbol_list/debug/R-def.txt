@@ -14,7 +14,7 @@ color teal_200
 color teal_700
 color white
 drawable btn_bg
-drawable dark_et_bg
+drawable checkmark
 drawable et_bg
 drawable food_runner
 drawable food_runner_logo
@@ -34,6 +34,7 @@ drawable mail_icon
 drawable password_icon
 drawable phone_icon
 drawable profile_icon
+drawable success
 drawable txt_bg
 id border
 id btnAddToCart
@@ -70,6 +71,7 @@ id imgPassword
 id imgProfile
 id imgRegisteredMobile
 id imgRestaurantImage
+id imgSuccess
 id imgUserProfile
 id llContent
 id logout
@@ -90,10 +92,13 @@ id rlNewPassword
 id rlPassword
 id rvCartItem
 id rvFavRestaurantList
+id rvItems
 id rvMenuItem
+id rvOrderHistory
 id rvRestaurantList
 id sideDrawer
 id toolbar
+id txtDate
 id txtForgotPassword
 id txtHeader
 id txtInputDescription
@@ -125,6 +130,7 @@ layout fragment_home
 layout fragment_order_history
 layout fragment_profile
 layout single_cart_item
+layout single_history_item
 layout single_menu_item
 layout single_rastaurant
 menu menu_drawer
@@ -173,6 +179,7 @@ string txt_forgot_password
 string txt_input_description
 string txt_signup
 style Theme.FoodRunnerApp
+style toolbar
 xml backup_rules
 xml data_extraction_rules
 xml network_security_config

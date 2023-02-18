@@ -20,7 +20,7 @@
         android:id="@+id/txtInputDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="?colorOnPrimary"
         android:text="@string/txt_input_description"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/imgRegisteredMobile"
-            android:textColor="@color/black"
+            android:textColor="?colorOnSecondary"
             android:hint="@string/hnt_mobile_number"
             android:inputType="phone"
             android:maxLength="10"
@@ -97,7 +97,7 @@
             android:inputType="textEmailAddress"
             android:autoHandwritingEnabled="true"
             android:maxLines="1"
-            android:textColor="@color/black"
+            android:textColor="?colorOnSecondary"
             android:textSize="18sp"
             android:backgroundTint="@color/black"
             tools:targetApi="tiramisu" />
@@ -116,7 +116,7 @@
         android:background="@drawable/btn_bg"
         android:padding="10dp"
         android:text="@string/btn_next"
-        android:textColor="@color/white"
+        android:textColor="?colorOnPrimary"
         android:textSize="18sp"
         android:textStyle="bold" />
 

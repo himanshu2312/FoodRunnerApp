@@ -125,7 +125,6 @@ class HomeFragment : Fragment() {
             dialog.show()
         }
 
-
         return view
     }
 

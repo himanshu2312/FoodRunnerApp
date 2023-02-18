@@ -58,212 +58,211 @@
 33-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:19:9-54
 34        android:supportsRtl="true"
 34-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:20:9-35
-35        android:testOnly="true"
-36        android:theme="@style/Theme.FoodRunnerApp" >
-36-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:21:9-51
-37        <activity
-37-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:23:9-31:20
-38            android:name="com.himanshu.foodrunnerapp.activity.OrderSuccessActivity"
-38-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:24:13-58
-39            android:configChanges="screenSize|orientation"
-39-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:26:13-59
-40            android:exported="false"
-40-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:27:13-37
-41            android:screenOrientation="portrait" >
-41-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:25:13-49
-42            <meta-data
-42-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
-43                android:name="android.app.lib_name"
-43-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
-44                android:value="" />
-44-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
-45        </activity>
-46        <activity
-46-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:32:9-40:20
-47            android:name="com.himanshu.foodrunnerapp.activity.CartActivity"
-47-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:33:13-50
-48            android:configChanges="screenSize|orientation"
-48-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:34:13-59
-49            android:exported="false"
-49-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:35:13-37
-50            android:screenOrientation="portrait" >
-50-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:36:13-49
-51            <meta-data
-51-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
-52                android:name="android.app.lib_name"
-52-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
-53                android:value="" />
-53-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
-54        </activity>
-55        <activity
-55-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:41:9-49:20
-56            android:name="com.himanshu.foodrunnerapp.activity.MenuActivity"
-56-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:42:13-50
-57            android:configChanges="screenSize|orientation"
-57-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:43:13-59
-58            android:exported="false"
-58-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:44:13-37
-59            android:screenOrientation="portrait" >
-59-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:45:13-49
-60            <meta-data
-60-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
-61                android:name="android.app.lib_name"
-61-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
-62                android:value="" />
-62-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
-63        </activity>
-64        <activity
-64-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:50:9-58:20
-65            android:name="com.himanshu.foodrunnerapp.activity.OtpActivity"
-65-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:51:13-49
-66            android:configChanges="orientation|screenSize"
-66-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:52:13-59
-67            android:exported="false"
-67-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:53:13-37
-68            android:screenOrientation="portrait" >
-68-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:54:13-49
-69            <meta-data
-69-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
-70                android:name="android.app.lib_name"
-70-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
-71                android:value="" />
-71-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
-72        </activity>
-73        <activity
-73-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:59:9-67:20
-74            android:name="com.himanshu.foodrunnerapp.activity.SignupActivity"
-74-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:60:13-52
-75            android:configChanges="screenSize|orientation"
-75-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:61:13-59
-76            android:exported="false"
-76-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:62:13-37
-77            android:screenOrientation="portrait" >
-77-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:63:13-49
-78            <meta-data
-78-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
-79                android:name="android.app.lib_name"
-79-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
-80                android:value="" />
-80-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
-81        </activity>
-82        <activity
-82-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:68:9-76:20
-83            android:name="com.himanshu.foodrunnerapp.activity.ForgotActivity"
-83-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:69:13-52
-84            android:configChanges="screenSize|orientation"
-84-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:70:13-59
-85            android:exported="false"
-85-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:71:13-37
-86            android:screenOrientation="portrait" >
-86-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:72:13-49
-87            <meta-data
-87-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
-88                android:name="android.app.lib_name"
-88-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
-89                android:value="" />
-89-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
-90        </activity>
-91        <activity
-91-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:77:9-85:20
-92            android:name="com.himanshu.foodrunnerapp.activity.LoginActivity"
-92-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:78:13-51
-93            android:configChanges="screenSize|orientation"
-93-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:79:13-59
-94            android:exported="false"
-94-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:80:13-37
-95            android:screenOrientation="portrait" >
-95-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:81:13-49
-96            <meta-data
-96-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
-97                android:name="android.app.lib_name"
-97-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
-98                android:value="" />
-98-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
-99        </activity>
-100        <activity
-100-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:86:9-100:20
-101            android:name="com.himanshu.foodrunnerapp.activity.SplashActivity"
-101-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:87:13-52
-102            android:configChanges="screenSize|orientation"
-102-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:88:13-59
-103            android:exported="true"
-103-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:89:13-36
-104            android:screenOrientation="portrait" >
-104-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:90:13-49
-105            <intent-filter>
-105-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:91:13-95:29
-106                <action android:name="android.intent.action.MAIN" />
-106-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:92:17-69
-106-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:92:25-66
-107
-108                <category android:name="android.intent.category.LAUNCHER" />
-108-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:94:17-77
-108-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:94:27-74
-109            </intent-filter>
-110
-111            <meta-data
-111-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
-112                android:name="android.app.lib_name"
-112-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
-113                android:value="" />
-113-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
-114        </activity>
-115        <activity
-115-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:101:9-109:20
-116            android:name="com.himanshu.foodrunnerapp.activity.MainActivity"
-116-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:102:13-50
-117            android:configChanges="screenSize|orientation"
-117-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:103:13-59
-118            android:exported="false"
-118-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:104:13-37
-119            android:screenOrientation="portrait" >
-119-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:105:13-49
-120            <meta-data
-120-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
-121                android:name="android.app.lib_name"
-121-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
-122                android:value="" />
-122-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
-123        </activity>
-124
-125        <service
-125-->[androidx.room:room-runtime:2.5.0] C:\Users\himan\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
-126            android:name="androidx.room.MultiInstanceInvalidationService"
-126-->[androidx.room:room-runtime:2.5.0] C:\Users\himan\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
-127            android:directBootAware="true"
-127-->[androidx.room:room-runtime:2.5.0] C:\Users\himan\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
-128            android:exported="false" />
-128-->[androidx.room:room-runtime:2.5.0] C:\Users\himan\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
-129
-130        <provider
-130-->[com.squareup.picasso:picasso:2.8] C:\Users\himan\.gradle\caches\transforms-3\5a1c4b97a85ec170b891604c93406514\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
-131            android:name="com.squareup.picasso.PicassoProvider"
-131-->[com.squareup.picasso:picasso:2.8] C:\Users\himan\.gradle\caches\transforms-3\5a1c4b97a85ec170b891604c93406514\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
-132            android:authorities="com.himanshu.foodrunnerapp.com.squareup.picasso"
-132-->[com.squareup.picasso:picasso:2.8] C:\Users\himan\.gradle\caches\transforms-3\5a1c4b97a85ec170b891604c93406514\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
-133            android:exported="false" />
-133-->[com.squareup.picasso:picasso:2.8] C:\Users\himan\.gradle\caches\transforms-3\5a1c4b97a85ec170b891604c93406514\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
-134        <provider
-134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-135            android:name="androidx.startup.InitializationProvider"
-135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-136            android:authorities="com.himanshu.foodrunnerapp.androidx-startup"
-136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-137            android:exported="false" >
-137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-138            <meta-data
-138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-139                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-140                android:value="androidx.startup" />
-140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-141            <meta-data
-141-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\himan\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-142                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-142-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\himan\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-143                android:value="androidx.startup" />
-143-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\himan\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-144        </provider>
-145    </application>
-146
-147</manifest>
+35        android:theme="@style/Theme.FoodRunnerApp" >
+35-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:21:9-51
+36        <activity
+36-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:23:9-31:20
+37            android:name="com.himanshu.foodrunnerapp.activity.OrderSuccessActivity"
+37-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:24:13-58
+38            android:configChanges="screenSize|orientation"
+38-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:26:13-59
+39            android:exported="false"
+39-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:27:13-37
+40            android:screenOrientation="portrait" >
+40-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:25:13-49
+41            <meta-data
+41-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
+42                android:name="android.app.lib_name"
+42-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
+43                android:value="" />
+43-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
+44        </activity>
+45        <activity
+45-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:32:9-40:20
+46            android:name="com.himanshu.foodrunnerapp.activity.CartActivity"
+46-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:33:13-50
+47            android:configChanges="screenSize|orientation"
+47-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:34:13-59
+48            android:exported="false"
+48-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:35:13-37
+49            android:screenOrientation="portrait" >
+49-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:36:13-49
+50            <meta-data
+50-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
+51                android:name="android.app.lib_name"
+51-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
+52                android:value="" />
+52-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
+53        </activity>
+54        <activity
+54-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:41:9-49:20
+55            android:name="com.himanshu.foodrunnerapp.activity.MenuActivity"
+55-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:42:13-50
+56            android:configChanges="screenSize|orientation"
+56-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:43:13-59
+57            android:exported="false"
+57-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:44:13-37
+58            android:screenOrientation="portrait" >
+58-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:45:13-49
+59            <meta-data
+59-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
+60                android:name="android.app.lib_name"
+60-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
+61                android:value="" />
+61-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
+62        </activity>
+63        <activity
+63-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:50:9-58:20
+64            android:name="com.himanshu.foodrunnerapp.activity.OtpActivity"
+64-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:51:13-49
+65            android:configChanges="orientation|screenSize"
+65-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:52:13-59
+66            android:exported="false"
+66-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:53:13-37
+67            android:screenOrientation="portrait" >
+67-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:54:13-49
+68            <meta-data
+68-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
+69                android:name="android.app.lib_name"
+69-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
+70                android:value="" />
+70-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
+71        </activity>
+72        <activity
+72-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:59:9-67:20
+73            android:name="com.himanshu.foodrunnerapp.activity.SignupActivity"
+73-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:60:13-52
+74            android:configChanges="screenSize|orientation"
+74-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:61:13-59
+75            android:exported="false"
+75-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:62:13-37
+76            android:screenOrientation="portrait" >
+76-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:63:13-49
+77            <meta-data
+77-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
+78                android:name="android.app.lib_name"
+78-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
+79                android:value="" />
+79-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
+80        </activity>
+81        <activity
+81-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:68:9-76:20
+82            android:name="com.himanshu.foodrunnerapp.activity.ForgotActivity"
+82-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:69:13-52
+83            android:configChanges="screenSize|orientation"
+83-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:70:13-59
+84            android:exported="false"
+84-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:71:13-37
+85            android:screenOrientation="portrait" >
+85-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:72:13-49
+86            <meta-data
+86-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
+87                android:name="android.app.lib_name"
+87-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
+88                android:value="" />
+88-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
+89        </activity>
+90        <activity
+90-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:77:9-85:20
+91            android:name="com.himanshu.foodrunnerapp.activity.LoginActivity"
+91-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:78:13-51
+92            android:configChanges="screenSize|orientation"
+92-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:79:13-59
+93            android:exported="false"
+93-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:80:13-37
+94            android:screenOrientation="portrait" >
+94-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:81:13-49
+95            <meta-data
+95-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
+96                android:name="android.app.lib_name"
+96-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
+97                android:value="" />
+97-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
+98        </activity>
+99        <activity
+99-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:86:9-100:20
+100            android:name="com.himanshu.foodrunnerapp.activity.SplashActivity"
+100-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:87:13-52
+101            android:configChanges="screenSize|orientation"
+101-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:88:13-59
+102            android:exported="true"
+102-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:89:13-36
+103            android:screenOrientation="portrait" >
+103-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:90:13-49
+104            <intent-filter>
+104-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:91:13-95:29
+105                <action android:name="android.intent.action.MAIN" />
+105-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:92:17-69
+105-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:92:25-66
+106
+107                <category android:name="android.intent.category.LAUNCHER" />
+107-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:94:17-77
+107-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:94:27-74
+108            </intent-filter>
+109
+110            <meta-data
+110-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
+111                android:name="android.app.lib_name"
+111-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
+112                android:value="" />
+112-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
+113        </activity>
+114        <activity
+114-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:101:9-109:20
+115            android:name="com.himanshu.foodrunnerapp.activity.MainActivity"
+115-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:102:13-50
+116            android:configChanges="screenSize|orientation"
+116-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:103:13-59
+117            android:exported="false"
+117-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:104:13-37
+118            android:screenOrientation="portrait" >
+118-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:105:13-49
+119            <meta-data
+119-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:28:13-30:36
+120                android:name="android.app.lib_name"
+120-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:29:17-52
+121                android:value="" />
+121-->C:\Users\himan\StudioProjects\FoodRunnerApp\app\src\main\AndroidManifest.xml:30:17-33
+122        </activity>
+123
+124        <service
+124-->[androidx.room:room-runtime:2.5.0] C:\Users\himan\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+125            android:name="androidx.room.MultiInstanceInvalidationService"
+125-->[androidx.room:room-runtime:2.5.0] C:\Users\himan\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+126            android:directBootAware="true"
+126-->[androidx.room:room-runtime:2.5.0] C:\Users\himan\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+127            android:exported="false" />
+127-->[androidx.room:room-runtime:2.5.0] C:\Users\himan\.gradle\caches\transforms-3\ea76c4dab943d9cc28c50765786034c5\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+128
+129        <provider
+129-->[com.squareup.picasso:picasso:2.8] C:\Users\himan\.gradle\caches\transforms-3\5a1c4b97a85ec170b891604c93406514\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+130            android:name="com.squareup.picasso.PicassoProvider"
+130-->[com.squareup.picasso:picasso:2.8] C:\Users\himan\.gradle\caches\transforms-3\5a1c4b97a85ec170b891604c93406514\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+131            android:authorities="com.himanshu.foodrunnerapp.com.squareup.picasso"
+131-->[com.squareup.picasso:picasso:2.8] C:\Users\himan\.gradle\caches\transforms-3\5a1c4b97a85ec170b891604c93406514\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+132            android:exported="false" />
+132-->[com.squareup.picasso:picasso:2.8] C:\Users\himan\.gradle\caches\transforms-3\5a1c4b97a85ec170b891604c93406514\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+133        <provider
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+134            android:name="androidx.startup.InitializationProvider"
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+135            android:authorities="com.himanshu.foodrunnerapp.androidx-startup"
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+136            android:exported="false" >
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+137            <meta-data
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+139                android:value="androidx.startup" />
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\himan\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+140            <meta-data
+140-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\himan\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+141                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+141-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\himan\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+142                android:value="androidx.startup" />
+142-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\himan\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+143        </provider>
+144    </application>
+145
+146</manifest>

@@ -2717,7 +2717,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable dark_et_bg
+drawable checkmark
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2825,6 +2825,7 @@ drawable notify_panel_notification_icon_bg
 drawable password_icon
 drawable phone_icon
 drawable profile_icon
+drawable success
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3080,6 +3081,7 @@ id imgPassword
 id imgProfile
 id imgRegisteredMobile
 id imgRestaurantImage
+id imgSuccess
 id imgUserProfile
 id immediateStop
 id included
@@ -3231,7 +3233,9 @@ id rounded
 id row_index_key
 id rvCartItem
 id rvFavRestaurantList
+id rvItems
 id rvMenuItem
+id rvOrderHistory
 id rvRestaurantList
 id save_non_transition_alpha
 id save_overlay_view
@@ -3356,6 +3360,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtDate
 id txtForgotPassword
 id txtHeader
 id txtInputDescription
@@ -3592,6 +3597,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout single_cart_item
+layout single_history_item
 layout single_menu_item
 layout single_rastaurant
 layout support_simple_spinner_dropdown_item
@@ -4889,6 +4895,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style toolbar
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

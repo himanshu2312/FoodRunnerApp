@@ -33,7 +33,7 @@
         android:textSize="18sp"
         android:padding="10dp"
         android:hint="OTP (4 characters)"
-        android:textColor="@color/black"
+        android:textColor="?colorOnSecondary"
         tools:targetApi="tiramisu" />
 
     <EditText
@@ -49,10 +49,10 @@
         android:textSize="18sp"
         android:padding="10dp"
         android:hint="New Password"
-        android:textColor="@color/black"/>
+        android:textColor="?colorOnSecondary"/>
 
     <EditText
-        android:textColor="@color/black"
+        android:textColor="?colorOnSecondary"
         android:id="@+id/etConfirmPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

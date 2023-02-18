@@ -3,28 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.OrderHistoryFragment">
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/color_primary"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark"
-        app:titleTextColor="?colorOnPrimary"
-        tools:targetApi="m" />
-
-
-        <TextView
-            android:id="@+id/txtHeader"
-            android:layout_below="@+id/toolbar"
-            android:layout_alignParentStart="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Your previous orders are listed below:"
-            android:textSize="18sp"
-            android:padding="10dp"/>
 
     <View
         android:id="@+id/border"
@@ -33,13 +12,23 @@
         android:layout_height="1dp"
         android:background="?colorOnSecondary"/>
 
+        <TextView
+            android:id="@+id/txtHeader"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your previous orders are listed below:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvOrderHistory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/border"
+        android:layout_below="@+id/txtHeader"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="1dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp" />
 
