@@ -52,7 +52,8 @@ class MainActivity : AppCompatActivity() {
             }
             else{
                 val dialog=AlertDialog.Builder(this@MainActivity)
-                dialog.setMessage("Confirmation")
+                dialog.setTitle("Confirmation")
+                dialog.setMessage("Are you sure to Logout")
                 dialog.setPositiveButton("Yes"){
                     text, listener->
                     sharedPreferences=getSharedPreferences(R.string.app_name.toString(), MODE_PRIVATE)

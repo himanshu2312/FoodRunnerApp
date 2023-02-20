@@ -2825,7 +2825,6 @@ drawable notify_panel_notification_icon_bg
 drawable password_icon
 drawable phone_icon
 drawable profile_icon
-drawable success
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

@@ -34,7 +34,6 @@ drawable mail_icon
 drawable password_icon
 drawable phone_icon
 drawable profile_icon
-drawable success
 drawable txt_bg
 id border
 id btnAddToCart
